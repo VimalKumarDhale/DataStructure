@@ -1,7 +1,15 @@
-npm install --save-dev typescript jasmine @types/jasmine ts-node
+# Introduction
 
-Build App 'node fileName.ts' -> compile the .ts file into .js file then run the following command to run the file, Run App 'tsc fileName.js
+The Data Structure Examples
 
-The unit test set is not ready yet
+# Build
 
-Webpack set has issues.
+npm run build
+
+# Run the Application
+
+node dist/bundle.js
+
+# Run the test
+
+npm run test

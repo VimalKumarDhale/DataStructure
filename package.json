@@ -1,11 +1,12 @@
 {
-  "name": "data structure",
+  "name": "data_structure",
   "version": "1.0.0",
   "description": "solid principle examples",
   "main": "index.js",
   "scripts": {
     "build": "npx webpack --config=webpack.config.js",
-    "test": "karma start karma.conf.js"
+    "test": "karma start karma.conf.js",
+    "ds": "npm run build & node dist/bundle.js"
   },
   "author": "Vimal Dhale",
   "license": "ISC",

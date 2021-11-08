@@ -13,3 +13,6 @@ node dist/bundle.js
 # Run the test
 
 npm run test
+
+# Create build and run the app
+npm run ds
